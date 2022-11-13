@@ -372,16 +372,36 @@ form .pet {
   align-items: center;
 }
 
-form {
-  width: 50%;
-  display: inline-block;
+.image-container img {
+  object-fit: contain;
+  width: 100%;
 }
 
-.search-res {
-  width: 40%;
-  display: inline-block;
+.centerContent {
+  text-align: center;
 }
 
-.search {
-  display: flex;
+.centerContent button {
+  background-color: #ad343e;
+  padding: 5px 25px;
+  color: white;
+  font-size: 18px;
+  border: #333 1px solid;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.centerContent button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.details img{
+  width: 150px;
+}
+
+.details {
+  text-align: center;
 }
