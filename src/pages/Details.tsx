@@ -17,7 +17,7 @@ const Details = () => {
   }
   const petQuery = usePetId(+id);
   //console.log(petQuery.data);
-  const pet = petQuery?.data as Pet;
+  const pet = petQuery?.data?.pets[0] as Pet;
 
   return (
     <div className="details">

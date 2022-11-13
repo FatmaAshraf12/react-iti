@@ -7,7 +7,7 @@ const fetchPets :QueryFunction< SearchPetsAPIResponse,['pets', SearchParams]> = 
   const [, { animal, city, breed }] = queryKey;
   if (!animal || !breed) return '';
   const res = await fetch(
-    `http://pets-v2.dev-apis.com/pets?animal=${animal}&city=${city}&breed=${breed}`
+    `https://pets-v2.dev-apis.com/pets?animal=${animal}&city=${city}&breed=${breed}`
   );
   return res.json();
 };
