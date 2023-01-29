@@ -1,0 +1,1 @@
+import{j as e,b as t,l as n}from"./index.ce6d0ad5.js";const r=()=>e("div",{className:"centerContent",children:[t("h2",{style:{textAlign:"center"},children:"not found"}),t("button",{children:t(n,{to:"/",children:"Back to Home "})})]});export{r as default};
